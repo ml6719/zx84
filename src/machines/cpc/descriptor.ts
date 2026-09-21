@@ -48,7 +48,7 @@ function cpcUi(model: MachineModel): MachineUiCapabilities {
     tapeSound: false,
     tapeExtensions: cpcHasTape(model) ? ['.cdt', '.tzx', '.tap', '.zip'] : [],
     saveMenu: ['snapshot-sna-v2', 'snapshot-sna-v3', 'screenshot-png', 'screen-scr', 'ram-bin'],
-    zipPolicy: 'none',
+    zipPolicy: 'media',
     persistMedia: false,
     bootDisk: false,
     // The Plus range has no on-board ROM: when its cartridge slot is empty the
